@@ -1,9 +1,6 @@
-name = "666-pages-site"
+name = "666"
 # Replace with your Cloudflare account ID when deploying.
 # For Cloudflare Pages, this may not be required if the Pages project is linked.
 # If you use wrangler directly, set account_id = "your-account-id"
-workers_dev = false
 compatibility_date = "2026-06-20"
-
-[site]
-bucket = "./public"
+pages_build_output_dir = "public"
